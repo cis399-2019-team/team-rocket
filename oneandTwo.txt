@@ -1,0 +1,8 @@
+1 - Owen's Instance ID: i-0b2d9125ac0072929
+    Owen's Private IP: 10.0.4.206
+    
+    James' Instance ID: 
+    James' Private IP: 
+
+2 - Open the Amazon EC2 console, in Resources select "running instances". Find and select your instance.
+    Once your instance is selected, information should appear below containing the Public IP address.   
