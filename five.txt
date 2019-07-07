@@ -1,0 +1,87 @@
+ubuntu@ip-10-0-4-128:~$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Jul03 ?        00:00:04 /sbin/init
+root         2     0  0 Jul03 ?        00:00:00 [kthreadd]
+root         4     2  0 Jul03 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 Jul03 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 Jul03 ?        00:00:00 [ksoftirqd/0]
+root         8     2  0 Jul03 ?        00:00:00 [rcu_sched]
+root         9     2  0 Jul03 ?        00:00:00 [rcu_bh]
+root        10     2  0 Jul03 ?        00:00:00 [migration/0]
+root        11     2  0 Jul03 ?        00:00:00 [watchdog/0]
+root        12     2  0 Jul03 ?        00:00:00 [cpuhp/0]
+root        13     2  0 Jul03 ?        00:00:00 [kdevtmpfs]
+root        14     2  0 Jul03 ?        00:00:00 [netns]
+root        15     2  0 Jul03 ?        00:00:00 [rcu_tasks_kthre]
+root        16     2  0 Jul03 ?        00:00:00 [kauditd]
+root        17     2  0 Jul03 ?        00:00:00 [xenbus]
+root        18     2  0 Jul03 ?        00:00:00 [xenwatch]
+root        20     2  0 Jul03 ?        00:00:00 [khungtaskd]
+root        21     2  0 Jul03 ?        00:00:00 [oom_reaper]
+root        22     2  0 Jul03 ?        00:00:00 [writeback]
+root        23     2  0 Jul03 ?        00:00:00 [kcompactd0]
+root        24     2  0 Jul03 ?        00:00:00 [ksmd]
+root        25     2  0 Jul03 ?        00:00:00 [crypto]
+root        26     2  0 Jul03 ?        00:00:00 [kintegrityd]
+root        27     2  0 Jul03 ?        00:00:00 [kblockd]
+root        28     2  0 Jul03 ?        00:00:00 [ata_sff]
+root        29     2  0 Jul03 ?        00:00:00 [md]
+root        30     2  0 Jul03 ?        00:00:00 [edac-poller]
+root        31     2  0 Jul03 ?        00:00:00 [devfreq_wq]
+root        32     2  0 Jul03 ?        00:00:00 [watchdogd]
+root        35     2  0 Jul03 ?        00:00:00 [kswapd0]
+root        36     2  0 Jul03 ?        00:00:00 [kworker/u31:0]
+root        37     2  0 Jul03 ?        00:00:00 [ecryptfs-kthrea]
+root        79     2  0 Jul03 ?        00:00:00 [kthrotld]
+root        80     2  0 Jul03 ?        00:00:00 [nvme-wq]
+root        81     2  0 Jul03 ?        00:00:00 [scsi_eh_0]
+root        82     2  0 Jul03 ?        00:00:00 [scsi_tmf_0]
+root        83     2  0 Jul03 ?        00:00:00 [scsi_eh_1]
+root        84     2  0 Jul03 ?        00:00:00 [scsi_tmf_1]
+root        89     2  0 Jul03 ?        00:00:00 [ipv6_addrconf]
+root        99     2  0 Jul03 ?        00:00:00 [kstrp]
+root       184     2  0 Jul03 ?        00:00:00 [kworker/0:1H]
+root       293     2  0 Jul03 ?        00:00:00 [raid5wq]
+root       344     2  0 Jul03 ?        00:00:00 [jbd2/xvda1-8]
+root       345     2  0 Jul03 ?        00:00:00 [ext4-rsv-conver]
+root       411     2  0 Jul03 ?        00:00:00 [iscsi_eh]
+root       418     1  0 Jul03 ?        00:00:01 /lib/systemd/systemd-journald
+root       419     2  0 Jul03 ?        00:00:00 [ib-comp-wq]
+root       420     2  0 Jul03 ?        00:00:00 [ib_mcast]
+root       422     2  0 Jul03 ?        00:00:00 [ib_nl_sa_wq]
+root       424     2  0 Jul03 ?        00:00:00 [rdma_cm]
+root       438     1  0 Jul03 ?        00:00:00 /sbin/lvmetad -f
+root       450     1  0 Jul03 ?        00:00:00 /lib/systemd/systemd-udevd
+systemd+   560     1  0 Jul03 ?        00:00:00 /lib/systemd/systemd-timesyncd
+systemd+   642     1  0 Jul03 ?        00:00:00 /lib/systemd/systemd-networkd
+systemd+   663     1  0 Jul03 ?        00:00:00 /lib/systemd/systemd-resolved
+daemon     808     1  0 Jul03 ?        00:00:00 /usr/sbin/atd -f
+root       812     1  0 Jul03 ?        00:00:01 /usr/bin/lxcfs /var/lib/lxcfs/
+message+   813     1  0 Jul03 ?        00:00:00 /usr/bin/dbus-daemon --system --
+root       840     1  0 Jul03 ?        00:00:00 /lib/systemd/systemd-logind
+root       841     1  0 Jul03 ?        00:00:04 /usr/lib/accountsservice/account
+root       849     1  0 Jul03 ?        00:00:00 /usr/sbin/cron -f
+syslog     852     1  0 Jul03 ?        00:00:00 /usr/sbin/rsyslogd -n
+root       858     1  0 Jul03 ?        00:00:00 /usr/bin/python3 /usr/bin/networ
+root       887     1  0 Jul03 ?        00:00:00 /usr/bin/python3 /usr/share/unat
+root       891     1  0 Jul03 ?        00:00:00 /usr/lib/policykit-1/polkitd --n
+root       905     1  0 Jul03 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-
+root       918     1  0 Jul03 tty1     00:00:00 /sbin/agetty -o -p -- \u --nocle
+root      1010     1  0 Jul03 ?        00:00:00 /usr/sbin/sshd -D
+root      1127     2  0 Jul03 ?        00:00:00 [loop0]
+root      1275     2  0 Jul03 ?        00:00:00 [loop1]
+root      1326     1  0 Jul03 ?        00:00:00 /snap/amazon-ssm-agent/1335/amaz
+root      2751     2  0 Jul04 ?        00:00:00 [kworker/0:2]
+root      3042     2  0 Jul04 ?        00:00:00 [loop2]
+root      3067     1  0 Jul04 ?        00:00:07 /usr/lib/snapd/snapd
+root      6843     2  0 13:19 ?        00:00:00 [kworker/u30:1]
+root      6904     2  0 13:25 ?        00:00:00 [kworker/0:1]
+root      6956     2  0 14:23 ?        00:00:00 [kworker/u30:0]
+root      7004  1010  0 17:52 ?        00:00:00 sshd: ubuntu [priv]
+ubuntu    7006     1  0 17:52 ?        00:00:00 /lib/systemd/systemd --user
+ubuntu    7007  7006  0 17:52 ?        00:00:00 (sd-pam)
+root      7036     2  0 17:52 ?        00:00:00 [kworker/0:0]
+ubuntu    7126  7004  0 17:52 ?        00:00:00 sshd: ubuntu@pts/0
+ubuntu    7127  7126  0 17:52 pts/0    00:00:00 -bash
+ubuntu    7142  7127  0 17:52 pts/0    00:00:00 ps -ef
+ubuntu@ip-10-0-4-128:~$ 
