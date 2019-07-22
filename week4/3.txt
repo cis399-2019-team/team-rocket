@@ -1,0 +1,2 @@
+URL of our page is:
+http://team-rocket-1199973664.us-west-2.elb.amazonaws.com

@@ -1,0 +1,6 @@
+URL for:
+James-Kang:
+http://ec2-34-213-26-250.us-west-2.compute.amazonaws.com
+
+owen-test:
+http://ec2-54-184-151-59.us-west-2.compute.amazonaws.com
