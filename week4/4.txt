@@ -1,0 +1,2 @@
+When testing our Load Balancer, with both instances in service, we found that our website was accessible as long as one of our instances was running apache. The only scenario where it would
+be unavailable is if both of our instances have apache stopped (or if one of the instances is out of service and the instance that is in service has apache stopped).
