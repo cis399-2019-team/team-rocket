@@ -1,0 +1,4 @@
+Load Balanced Health Check
+	----
+10.0.4.72 - - [22/Jul/2019:22:02:13 +0000] "GET / HTTP/1.1" 200 458 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+10.0.4.72 - - [22/Jul/2019:22:02:15 +0000] "GET /rocket.html HTTP/1.1" 200 442 "-" "ELB-HealthChecker/1.0"
