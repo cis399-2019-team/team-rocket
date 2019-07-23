@@ -1,0 +1,14 @@
+The puppet code to replicate the content bewtween the web server instances is:
+
+	file{"/var/www/html":
+		ensure	=>	directory,
+		recurse	=>	true,
+		mode	=>	'444',
+		owner	=>	'root',
+		group	=>	'root',
+		source	=>	"puppet:///modules/apache2/html",
+		require	=>	Package["apache2"],
+	}
+
+
+This can be found in our puppet repository at: /code/modules/apache2/manifests/init.pp
