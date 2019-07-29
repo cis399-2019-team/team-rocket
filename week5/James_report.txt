@@ -1,0 +1,12 @@
+evaluation for James Kang
+I was able to login to:
+Team Aquabee
+Team MapMoney
+Team 9
+Team default name
+
+I was unable to login to:
+Team 1
+Team grabage bin
+
+Other groups have not communicated with other groups...
