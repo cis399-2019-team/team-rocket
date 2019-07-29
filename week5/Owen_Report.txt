@@ -1,0 +1,9 @@
+I was able to successfully login to my account on the following teams instances
+	Aquabee
+	Mapmoney
+	Team 9
+	GarbageBin
+	defaultName
+	team1
+
+
