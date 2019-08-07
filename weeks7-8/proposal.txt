@@ -1,0 +1,23 @@
+For our final project, we will be installing the emacs package.
+The primary reason we opted to install emacs on our system is because of its populularity and practicality as a text editor. 
+We want each user (classmate) to have the ability to work on their editor of choice if they were to use their account to work on a project.
+
+Goals:
+1 - Install emacs so that every user has access to use it
+2 - Give users the permissions to install emacs extensions to fit their needs
+
+In order to verify the success of these goals, we will coordinate with classmates to ensure that emacs is installed and they are able to install extensions. 
+
+
+Emacs would likely not cause any issues for the general user population, as they will still have the option to use vi or vim should they choose. 
+
+
+Security Issues:
+1 - We need to ensure that while the users have permissions to install extensions for emacs, they dont have the permissions to install other software packages
+2 - With users installing their own extensions, it is possible an extension could cause an insecurity. 
+
+Installing emacs itself does not appear to be difficult and it likely only requires a few lines of puppet code. The challenging part lies in establishing user permissions,
+identifying issues as they arise, and automating tasks that ensure users are not installing faulty extensions. One solution that may need to be implemented, is installing
+another package capable of approving extensions before they are installed. Further research will need to be done to determine if this is possible
+
+ 
