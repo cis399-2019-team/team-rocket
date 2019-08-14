@@ -1,0 +1,12 @@
+This is a brief documentation explaining how we installed packages for Emacs using apt 
+
+1 - To search for Emacs packages, enter "apt-cache search emacs"
+
+	* this provides a list of all available packages for emacs
+
+2 - To install desired package, enter "apt-get install <packageName>"
+
+	* Ex:	apt-get install python-mode
+
+Most of the packages we have installed relate to Python as our target audience for our users is programmers. There are other interesting and useful
+packages we could install down the line to make Emacs more powerful and useful.
